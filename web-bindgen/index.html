@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CO2 app</title>
+  </head>
+  <body style="margin:0px; overflow:hidden;">
+    <script type="module">
+      import init from "./co2-app.js";
+      init('./co2-app_bg.wasm');
+    </script>
+  </body>
+</html>
+
+<style>
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #202225;
+  }
+}
+canvas {
+    width:100vw;
+    height:100vh;
+}
+</style>

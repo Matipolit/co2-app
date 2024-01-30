@@ -1,0 +1,5 @@
+/target
+/web-bindgen/co2-app_bg.wasm
+/web-bindgen/co2-app.d.ts
+/web-bindgen/co2-app_bg.wasm.d.ts
+/web-bindgen/co2-app.js
