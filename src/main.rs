@@ -175,7 +175,7 @@ impl Chart<Message> for CO2Chart {
             ThemeType::Dark => RGBColor(51, 89, 218),
         };
 
-        let data = self.data[self.bottom as usize..self.top as usize].to_vec();
+        let data = self.data[self.bottom as usize..=self.top as usize].to_vec();
 
         let mut chart = builder
             .x_label_area_size(28_i32)
